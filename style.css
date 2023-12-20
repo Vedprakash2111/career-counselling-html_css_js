@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body::-webkit-scrollbar{
+display: none;
+}
 
 .main{
     width: 100%;
@@ -11,6 +14,8 @@
     background-attachment: fixed;
     height: 100vh;
 }
+
+/* :start navbar------------------------------------------------------------------------------ */
 
 .navbar{
     background-color: darkslategrey;
@@ -208,4 +213,6 @@ ul li a:hover{
     color: gray;
     font-size: 50px;
   }
+
+/* start contact------------------------------------------------------------------------------------- */
   
